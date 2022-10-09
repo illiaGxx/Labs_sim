@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA/lab1_01simulink
+vPROCESSING_UNIT
+Z0 !s110 1665332334
+!i10b 1
+!s100 dY7o>C235Fa>0ee0_@khV2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>lLmRV]BML7EU[ZRn[;F01
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/intelFPGA/labs_simulink_hdl/lab1
+w1665330927
+8D:/intelFPGA/labs_simulink_hdl/lab1/PROCESSING_UNIT.v
+FD:/intelFPGA/labs_simulink_hdl/lab1/PROCESSING_UNIT.v
+!i122 0
+L0 40 219
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1665332334.000000
+!s107 D:/intelFPGA/labs_simulink_hdl/lab1/PROCESSING_UNIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intelFPGA/labs_simulink_hdl/lab1/PROCESSING_UNIT.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@p@r@o@c@e@s@s@i@n@g_@u@n@i@t
+vPROCESSING_UNIT_tb
+R0
+!i10b 1
+!s100 oK_LH4ET]hh27BmTliYWc0
+R1
+INVijKG9<8@UL8NcUa=<AM0
+R2
+R3
+w1665330975
+8D:/intelFPGA/labs_simulink_hdl/lab1/PROCESSING_UNIT_tb.v
+FD:/intelFPGA/labs_simulink_hdl/lab1/PROCESSING_UNIT_tb.v
+!i122 1
+L0 40 625
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/intelFPGA/labs_simulink_hdl/lab1/PROCESSING_UNIT_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/intelFPGA/labs_simulink_hdl/lab1/PROCESSING_UNIT_tb.v|
+!i113 1
+R6
+R7
+n@p@r@o@c@e@s@s@i@n@g_@u@n@i@t_tb

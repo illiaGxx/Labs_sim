@@ -1,0 +1,18 @@
+# Compile of PROCESSING_UNIT.v was successful.
+# Compile of PROCESSING_UNIT_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.PROCESSING_UNIT_tb
+# vsim -gui work.PROCESSING_UNIT_tb 
+# Start time: 19:21:26 on Oct 09,2022
+# Loading work.PROCESSING_UNIT_tb
+# Loading work.PROCESSING_UNIT
+do D:/intelFPGA/labs_simulink_hdl/lab1/PROCESSING_UNIT_tb_sim.do
+# End time: 19:22:18 on Oct 09,2022, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.PROCESSING_UNIT_tb 
+# Start time: 19:22:18 on Oct 09,2022
+# Loading work.PROCESSING_UNIT_tb
+# Loading work.PROCESSING_UNIT
+# Break key hit
+# Break in Module PROCESSING_UNIT_tb at D:/intelFPGA/labs_simulink_hdl/lab1/PROCESSING_UNIT_tb.v line 481
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/intelFPGA/labs_simulink_hdl/lab1/wave.do
