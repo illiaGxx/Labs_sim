@@ -1,0 +1,129 @@
+Flow report for Lab2_01_floating
+Sun Nov 27 20:14:15 2022
+Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2022  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Sun Nov 27 20:13:59 2022       ;
+; Quartus Prime Version           ; 21.1.1 Build 850 06/23/2022 SJ Lite Edition ;
+; Revision Name                   ; Lab2_01_floating                            ;
+; Top-level Entity Name           ; CALC_MAGNITUDE_AND_PHASE_FLOATING_POINT     ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 2,201 / 32,070 ( 7 % )                      ;
+; Total registers                 ; 4133                                        ;
+; Total pins                      ; 134 / 457 ( 29 % )                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 2,989 / 4,065,280 ( < 1 % )                 ;
+; Total DSP Blocks                ; 10 / 87 ( 11 % )                            ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/27/2022 20:11:38 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Lab2_01_floating    ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                        ;
++-------------------------------------+-----------------------------------------+------------------+-----------------------------------------+------------+
+; Assignment Name                     ; Value                                   ; Default Value    ; Entity Name                             ; Section Id ;
++-------------------------------------+-----------------------------------------+------------------+-----------------------------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 91758742602.166957269818868             ; --               ; --                                      ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                      ; --               ; --                                      ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                       ; --               ; --                                      ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)  ; --               ; CALC_MAGNITUDE_AND_PHASE_FLOATING_POINT ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)  ; --               ; CALC_MAGNITUDE_AND_PHASE_FLOATING_POINT ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)  ; --               ; CALC_MAGNITUDE_AND_PHASE_FLOATING_POINT ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                     ; --               ; --                                      ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW   ; --               ; --                                      ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                            ; --               ; --                                      ; --         ;
+; TOP_LEVEL_ENTITY                    ; CALC_MAGNITUDE_AND_PHASE_FLOATING_POINT ; Lab2_01_floating ; --                                      ; --         ;
++-------------------------------------+-----------------------------------------+------------------+-----------------------------------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:23     ; 1.0                     ; 4937 MB             ; 00:00:33                           ;
+; Fitter               ; 00:01:46     ; 1.2                     ; 6580 MB             ; 00:04:23                           ;
+; Assembler            ; 00:00:08     ; 1.0                     ; 4912 MB             ; 00:00:09                           ;
+; Timing Analyzer      ; 00:00:15     ; 2.3                     ; 5263 MB             ; 00:00:31                           ;
+; Total                ; 00:02:32     ; --                      ; --                  ; 00:05:36                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-0ID8BM7  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-0ID8BM7  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-0ID8BM7  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-0ID8BM7  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Lab2_01_floating -c Lab2_01_floating
+quartus_fit --read_settings_files=off --write_settings_files=off Lab2_01_floating -c Lab2_01_floating
+quartus_asm --read_settings_files=off --write_settings_files=off Lab2_01_floating -c Lab2_01_floating
+quartus_sta Lab2_01_floating -c Lab2_01_floating
+
+
+
